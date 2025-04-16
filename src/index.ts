@@ -1,2 +1,3 @@
+import UserDefaults from "./ReactNativeUserDefaults";
 import UserDefaultsIOS from "./ReactNativeUserDefaults.ios";
-export default UserDefaultsIOS;
+export { UserDefaults, UserDefaultsIOS };

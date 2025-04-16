@@ -1,3 +1,4 @@
 import UserDefaults from "./ReactNativeUserDefaults";
-export default UserDefaults;
+import UserDefaultsIOS from "./ReactNativeUserDefaults.ios";
+export { UserDefaults, UserDefaultsIOS };
 //# sourceMappingURL=index.js.map
